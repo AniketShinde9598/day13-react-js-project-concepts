@@ -1,5 +1,11 @@
+import Header from "./components/Header";
+
 function App() {
-  return <h1 className="bg-primary text-light p-3">Hello World</h1>;
+  return (
+    <div>
+      <Header />
+    </div>
+  );
 }
 
 export default App;
