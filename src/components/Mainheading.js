@@ -1,9 +1,10 @@
 function Mainheading() {
-  let text = "WPT LAB ASSIGNMENT NO. 13";
+  let text = "Web Programming Technologies";
+  let style = { background: "Yellow", color: "Black", padding: "10px" };
 
   return (
     <div>
-      <h1 className="bg-secondary text-light p-3">{text}</h1>
+      <h1 style={style}>{text}</h1>
     </div>
   );
 }
